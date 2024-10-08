@@ -8,10 +8,13 @@ export const name = 'Vedant';
 export const lastName = 'Sugandhi';
 
 export const description =
-	'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, rerum. Debitis accusantium deleniti enim iste dignissimos? Similique, exercitationem! Odit vero, numquam quae ratione maxime sunt reiciendis laudantium quaerat iure ipsum!';
+	'Innovative Software Engineer with 3+ years of experience developing scalable applications using Java, JavaScript, and cloud technologies, specializing in microservices architecture and performance optimization.';
 
 export const links: Array<{ platform: Platform; link: string }> = [
-	{ platform: Platform.GitHub, link: 'https://github.com/' },
+	{ 
+		platform: Platform.GitHub, 
+		link: 'https://github.com/VedantSugandhi' 
+	},
 	{
 		platform: Platform.Linkedin,
 		link: 'https://www.linkedin.com/in/vedants9/'
@@ -26,15 +29,15 @@ export const links: Array<{ platform: Platform; link: string }> = [
 	},
 	{
 		platform: Platform.Email,
-		link: 'riadh_adrani@hotmail.fr'
+		link: 'vedantsugandhi95@gmail.com'
 	},
 	{
-		platform: Platform.Youtube,
-		link: 'https://www.youtube.com'
+		platform: Platform.Leetcode,
+		link: 'https://leetcode.com/u/vedantS95/'
 	},
 	{
 		platform: Platform.Facebook,
-		link: 'https://www.facebook.com'
+		link: 'https://www.facebook.com/VedantSugandhi'
 	}
 ];
 
