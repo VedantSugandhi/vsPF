@@ -25,14 +25,14 @@ export const links: Array<{ platform: Platform; link: string }> = [
 	},
 	{
 		platform: Platform.StackOverflow,
-		link: 'https://stackoverflow.com/'
+		link: 'https://stackoverflow.com/users/26397824/vedant-sugandhi'
 	},
 	{
 		platform: Platform.Email,
 		link: 'vedantsugandhi95@gmail.com'
 	},
 	{
-		platform: Platform.Leetcode,
+		platform: Platform.LeetCode,
 		link: 'https://leetcode.com/u/vedantS95/'
 	},
 	{
