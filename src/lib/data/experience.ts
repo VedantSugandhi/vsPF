@@ -3,21 +3,21 @@ import { getSkills } from './skills';
 import { ContractType, type Experience } from '../types';
 
 export const items: Array<Experience> = [
-	{
-		slug: 'Software',
-		company: 'Radical-AI',
-		description: 'Creating awesome tools for developers.',
-		contract: ContractType.Internship,
-		type: 'Software Development',
-		location: 'Remote',
-		period: { from: new Date(2024, 6, 1), to: new Date() },
-		skills: getSkills('ts', 'js'),
-		name: 'Software Engineer Intern',
-		color: 'red',
-		links: [],
-		logo: Assets.Unknown,
-		shortDescription: 'Full Stack Development'
-	},
+	// {
+	// 	slug: 'Software',
+	// 	company: 'Radical-AI',
+	// 	description: 'Creating awesome tools for developers.',
+	// 	contract: ContractType.Internship,
+	// 	type: 'Software Development',
+	// 	location: 'Remote',
+	// 	period: { from: new Date(2024, 6, 1), to: new Date() },
+	// 	skills: getSkills('ts', 'js'),
+	// 	name: 'Software Engineer Intern',
+	// 	color: 'red',
+	// 	links: [],
+	// 	logo: Assets.Unknown,
+	// 	shortDescription: 'Full Stack Development'
+	// },
 	{
 		slug: 'Machine Learning',
 		company: 'Mercor',
@@ -27,10 +27,10 @@ export const items: Array<Experience> = [
 		location: 'Remote',
 		period: { from: new Date(2024, 6, 3), to: new Date() },
 		skills: getSkills('svelte', 'ts', 'sass', 'css', 'html', 'js'),
-		name: 'Prompt Engineer',
+		name: 'Software Engineer',
 		color: 'red',
 		links: [],
-		logo: Assets.Unknown,
+		logo: Assets.Mercor,
 		shortDescription: 'Large Language Model Training'
 	},
 	{
@@ -42,10 +42,10 @@ export const items: Array<Experience> = [
 		location: 'Denver, Colorado',
 		period: { from: new Date(2023, 7, 21), to: new Date(2024, 4, 10) },
 		skills: getSkills('css', 'html', 'js'),
-		name: 'Information Technology Security Officer',
+		name: 'Software Engineer',
 		color: 'red',
 		links: [],
-		logo: Assets.Unknown,
+		logo: Assets.CU,
 		shortDescription: 'Oracle Identity Manager'
 	},
 	{
@@ -60,7 +60,7 @@ export const items: Array<Experience> = [
 		name: 'Software Engineer Intern',
 		color: 'red',
 		links: [],
-		logo: Assets.Unknown,
+		logo: Assets.Xactly,
 		shortDescription: 'Full Stack Development'
 	},
 	{
@@ -75,7 +75,7 @@ export const items: Array<Experience> = [
 		name: 'Associate Instructor',
 		color: 'red',
 		links: [],
-		logo: Assets.Unknown,
+		logo: Assets.CU,
 		shortDescription: 'Teaching Assitant for Web-API(CSCI-3916)'
 	},
 	{
@@ -87,10 +87,10 @@ export const items: Array<Experience> = [
 		location: 'Chennai, India',
 		period: { from: new Date(2020, 11, 23), to: new Date(2022, 7, 5) },
 		skills: getSkills('ts', 'js'),
-		name: 'Programmer Analyst (Full Stack Engineer)',
+		name: 'Full Stack Engineer',
 		color: 'red',
 		links: [],
-		logo: Assets.Unknown,
+		logo: Assets.Cognizant,
 		shortDescription: 'Full Stack Development'
 	},
 	{
@@ -105,7 +105,7 @@ export const items: Array<Experience> = [
 		name: 'Full Stack Developer',
 		color: 'red',
 		links: [],
-		logo: Assets.Unknown,
+		logo: Assets.Radiance,
 		shortDescription: 'Full Stack Development'
 	},
 	{
@@ -120,7 +120,7 @@ export const items: Array<Experience> = [
 		name: 'MySQL Intern',
 		color: 'red',
 		links: [],
-		logo: Assets.Unknown,
+		logo: Assets.Zensar,
 		shortDescription: 'Database Developer'
 	}
 ];

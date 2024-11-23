@@ -48,8 +48,6 @@ const Assets = {
 	Electron: a('electron.png'),
 	Flutter: a('flutter.svg'),
 	Java: a('java.png'),
-	CU: a('cuLogo.png'),
-	CDGI: a('cdgiLogo.png'),
 	AdonisJs: a('adonis.png'),
 	Android: a('android.png'),
 	Angular: a('angular.png'),
@@ -72,7 +70,14 @@ const Assets = {
 	Jest: a('jest.png'),
 	Unocss: a('unocss.svg'),
 	Ruvy: a('ruvy.svg'),
-	Postcss: a('postcss.svg')
+	Postcss: a('postcss.svg'),
+	CU: a('cuLogo.png'),
+	CDGI: a('cdgiLogo.png'),
+	Mercor: a('mercorLogo.jpg'),
+	Cognizant: a('cogLogo.png'),
+	Radiance: a('radianceLogo.jpg'),
+	Xactly: a('xactlyLogo.png'),
+	Zensar: a('zensarLogo.png')
 };
 
 export default Assets;
