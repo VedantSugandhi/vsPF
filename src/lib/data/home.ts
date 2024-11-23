@@ -8,7 +8,7 @@ export const name = 'Vedant';
 export const lastName = 'Sugandhi';
 
 export const description =
-	'Innovative Software Engineer with 3+ years of experience developing scalable applications using Java, JavaScript, and cloud technologies, specializing in microservices architecture and performance optimization.';
+	'Software Engineer with 3+ years of experience developing scalable applications using Java, JavaScript, and cloud technologies, specializing in microservices architecture and performance optimization.';
 
 export const links: Array<{ platform: Platform; link: string }> = [
 	{ 
