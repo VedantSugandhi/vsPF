@@ -40,7 +40,7 @@ export const getPlatfromIcon = (platform: Platform): Icons => {
 		case Platform.Linkedin:
 			return Icons.LinkedIn;
 		case Platform.LeetCode:
-			return Icons.Leetcode;
+			return Icons.Code;
 		case Platform.StackOverflow:
 			return Icons.StackOverflow;
 		case Platform.Facebook:
