@@ -48,6 +48,8 @@ const Assets = {
 	Electron: a('electron.png'),
 	Flutter: a('flutter.svg'),
 	Java: a('java.png'),
+	CU: a('cuLogo.png'),
+	CDGI: a('cdgiLogo.png'),
 	AdonisJs: a('adonis.png'),
 	Android: a('android.png'),
 	Angular: a('angular.png'),
