@@ -77,7 +77,8 @@ const Assets = {
 	Cognizant: a('cogLogo.png'),
 	Radiance: a('radianceLogo.jpg'),
 	Xactly: a('xactlyLogo.png'),
-	Zensar: a('zensarLogo.png')
+	Zensar: a('zensarLogo.png'),
+	Outamation: a('outamationLogo.png')
 };
 
 export default Assets;

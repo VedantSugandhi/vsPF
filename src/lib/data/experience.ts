@@ -9,13 +9,13 @@ export const items: Array<Experience> = [
 		description: 'Creating awesome tools for developers.',
 		contract: ContractType.FullTime,
 		type: 'Software Development',
-		location: 'Indore, India',
+		location: 'Coral Springs, Florida, USA',
 		period: { from: new Date(2024, 11, 23), to: new Date() },
 		skills: getSkills('ts', 'js'),
 		name: 'Software Engineer',
 		color: 'red',
 		links: [],
-		logo: Assets.Radiance,
+		logo: Assets.Outamation,
 		shortDescription: 'Full Stack Development'
 	},
 	{
