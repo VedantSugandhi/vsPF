@@ -25,7 +25,7 @@ export const items: Array<Experience> = [
 		contract: ContractType.Internship,
 		type: 'Software Development',
 		location: 'Remote',
-		period: { from: new Date(2024, 6, 1), to: new Date(2024, 12, 31) },
+		period: { from: new Date(2024, 6, 1), to: new Date(2024, 11, 31) },
 		skills: getSkills('ts', 'js'),
 		name: 'Software Engineer Intern',
 		color: 'red',
