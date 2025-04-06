@@ -3,21 +3,36 @@ import { getSkills } from './skills';
 import { ContractType, type Experience } from '../types';
 
 export const items: Array<Experience> = [
-	// {
-	// 	slug: 'Software',
-	// 	company: 'Radical-AI',
-	// 	description: 'Creating awesome tools for developers.',
-	// 	contract: ContractType.Internship,
-	// 	type: 'Software Development',
-	// 	location: 'Remote',
-	// 	period: { from: new Date(2024, 6, 1), to: new Date() },
-	// 	skills: getSkills('ts', 'js'),
-	// 	name: 'Software Engineer Intern',
-	// 	color: 'red',
-	// 	links: [],
-	// 	logo: Assets.Unknown,
-	// 	shortDescription: 'Full Stack Development'
-	// },
+	{
+		slug: 'Software',
+		company: 'Outamation. Inc',
+		description: 'Creating awesome tools for developers.',
+		contract: ContractType.FullTime,
+		type: 'Software Development',
+		location: 'Indore, India',
+		period: { from: new Date(2024, 11, 23), to: new Date() },
+		skills: getSkills('ts', 'js'),
+		name: 'Software Engineer',
+		color: 'red',
+		links: [],
+		logo: Assets.Radiance,
+		shortDescription: 'Full Stack Development'
+	},
+	{
+		slug: 'Software',
+		company: 'Radical-AI',
+		description: 'Creating awesome tools for developers.',
+		contract: ContractType.Internship,
+		type: 'Software Development',
+		location: 'Remote',
+		period: { from: new Date(2024, 6, 1), to: new Date(2024, 12, 31) },
+		skills: getSkills('ts', 'js'),
+		name: 'Software Engineer Intern',
+		color: 'red',
+		links: [],
+		logo: Assets.Unknown,
+		shortDescription: 'Full Stack Development'
+	},
 	{
 		slug: 'Machine Learning',
 		company: 'Mercor',
@@ -25,7 +40,7 @@ export const items: Array<Experience> = [
 		contract: ContractType.Freelance,
 		type: 'Machine Learning',
 		location: 'Remote',
-		period: { from: new Date(2024, 6, 3), to: new Date() },
+		period: { from: new Date(2024, 7, 3), to: new Date(2025, 2, 18) },
 		skills: getSkills('svelte', 'ts', 'sass', 'css', 'html', 'js'),
 		name: 'Software Engineer',
 		color: 'red',
@@ -91,21 +106,6 @@ export const items: Array<Experience> = [
 		color: 'red',
 		links: [],
 		logo: Assets.Cognizant,
-		shortDescription: 'Full Stack Development'
-	},
-	{
-		slug: 'Software',
-		company: 'Radiance Overseas',
-		description: 'Creating awesome tools for developers.',
-		contract: ContractType.FullTime,
-		type: 'Software Development',
-		location: 'Indore, India',
-		period: { from: new Date(2019, 7, 19), to: new Date(2020, 10, 27) },
-		skills: getSkills('ts', 'js'),
-		name: 'Full Stack Developer',
-		color: 'red',
-		links: [],
-		logo: Assets.Radiance,
 		shortDescription: 'Full Stack Development'
 	},
 	{
